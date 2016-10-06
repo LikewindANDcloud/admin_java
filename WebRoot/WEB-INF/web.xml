@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckAdmin</servlet-name>
+    <servlet-class>com.chinasoft.action.CheckAdmin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetLine</servlet-name>
+    <servlet-class>com.chinasoft.action.GetLine</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditAction</servlet-name>
+    <servlet-class>com.chinasoft.action.EditAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddLine</servlet-name>
+    <servlet-class>com.chinasoft.action.AddLine</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetOrders</servlet-name>
+    <servlet-class>com.chinasoft.action.GetOrders</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteLine</servlet-name>
+    <servlet-class>com.chinasoft.action.DeleteLine</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectLine</servlet-name>
+    <servlet-class>com.chinasoft.action.SelectLine</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Exit</servlet-name>
+    <servlet-class>com.chinasoft.action.Exit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteOrders</servlet-name>
+    <servlet-class>com.chinasoft.action.DeleteOrders</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditOrder</servlet-name>
+    <servlet-class>com.chinasoft.action.EditOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteAll</servlet-name>
+    <servlet-class>com.chinasoft.action.DeleteAll</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUsers</servlet-name>
+    <servlet-class>com.chinasoft.action.GetUsers</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateAll</servlet-name>
+    <servlet-class>com.chinasoft.action.UpdateAll</servlet-class>
+  </servlet>
+
+
+<listener>
+<listener-class>com.chinasoft.listener.SessionListener</listener-class>
+</listener>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>CheckAdmin</servlet-name>
+    <url-pattern>/CheckAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetLine</servlet-name>
+    <url-pattern>/GetLine</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditAction</servlet-name>
+    <url-pattern>/EditAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddLine</servlet-name>
+    <url-pattern>/AddLine</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetOrders</servlet-name>
+    <url-pattern>/GetOrders</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteLine</servlet-name>
+    <url-pattern>/DeleteLine</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectLine</servlet-name>
+    <url-pattern>/SelectLine</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Exit</servlet-name>
+    <url-pattern>/Exit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteOrders</servlet-name>
+    <url-pattern>/DeleteOrders</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditOrder</servlet-name>
+    <url-pattern>/EditOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteAll</servlet-name>
+    <url-pattern>/DeleteAll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUsers</servlet-name>
+    <url-pattern>/GetUsers</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateAll</servlet-name>
+    <url-pattern>/UpdateAll</url-pattern>
+  </servlet-mapping>
+
+</web-app>
